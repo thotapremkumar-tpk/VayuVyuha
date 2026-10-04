@@ -1,0 +1,195 @@
+1
+00:00:00,350 --> 00:00:04,670
+This is VayuVyuha, our working prototype for dynamic air operations planning.
+
+2
+00:00:04,950 --> 00:00:07,398
+Everything you will see runs on synthetic data.
+
+3
+00:00:08,110 --> 00:00:09,310
+This is the Command view.
+
+4
+00:00:09,550 --> 00:00:11,662
+The planner has built a twelve hour plan.
+
+5
+00:00:11,830 --> 00:00:18,326
+Eighteen of twenty seven requested missions are tasked, and every aircraft, crew, weapon and runway limit is respected.
+
+6
+00:00:18,670 --> 00:00:20,638
+Click any mission to see its package.
+
+7
+00:00:20,910 --> 00:00:25,246
+It shows which aircraft fly it, what they carry, and why this package was chosen.
+
+8
+00:00:26,510 --> 00:00:29,422
+Some requests cannot be met with today's resources.
+
+9
+00:00:29,630 --> 00:00:37,134
+For each one, the planner names the limit that blocks it, such as weapon stock, crew hours, or aircraft that are already committed.
+
+10
+00:00:38,190 --> 00:00:39,726
+Now let us change the situation.
+
+11
+00:00:40,070 --> 00:00:44,422
+One and a half hours in, a jet fails its inspection, so we remove it from the pool.
+
+12
+00:00:44,562 --> 00:00:47,778
+The planner re-plans in a fraction of a second, and then waits.
+
+13
+00:00:47,918 --> 00:00:50,446
+The banner says what happened and what it recommends.
+
+14
+00:00:50,630 --> 00:00:53,014
+The list shows each change and the reason for it.
+
+15
+00:00:53,154 --> 00:00:55,378
+Missions that have already launched are never touched.
+
+16
+00:00:55,518 --> 00:00:56,158
+We approve.
+
+17
+00:00:56,430 --> 00:00:59,294
+Next, a new air defence site appears on a planned route.
+
+18
+00:00:59,470 --> 00:01:00,622
+We place it on the map.
+
+19
+00:01:00,762 --> 00:01:04,730
+The planner recomputes the risk, and adds an escort where one is needed.
+
+20
+00:01:05,310 --> 00:01:06,814
+Let us compare the options.
+
+21
+00:01:07,230 --> 00:01:11,278
+Recommended, cautious, and maximum coverage are all valid plans.
+
+22
+00:01:12,030 --> 00:01:14,990
+They differ in how much risk and change the commander accepts.
+
+23
+00:01:15,510 --> 00:01:18,758
+A manual style re-plan is shown only for reference.
+
+24
+00:01:19,190 --> 00:01:20,726
+We approve the recommended plan.
+
+25
+00:01:21,590 --> 00:01:24,886
+An urgent target appears, with a seventy five minute window.
+
+26
+00:01:25,030 --> 00:01:26,054
+We place it on the map.
+
+27
+00:01:26,194 --> 00:01:29,618
+The planner fits it in, and shows which lower value mission gives way.
+
+28
+00:01:29,758 --> 00:01:32,638
+We open the new mission to see its package, and then approve.
+
+29
+00:01:34,070 --> 00:01:36,758
+Finally, a storm closes a strike corridor.
+
+30
+00:01:36,910 --> 00:01:38,414
+We place it on the map as well.
+
+31
+00:01:38,830 --> 00:01:41,934
+Missions inside it are moved or dropped, and again we approve.
+
+32
+00:01:42,790 --> 00:01:46,358
+The Timeline view shows every sortie, aircraft by aircraft.
+
+33
+00:01:46,498 --> 00:01:48,338
+Shaded bars have already launched.
+
+34
+00:01:48,478 --> 00:01:50,334
+Hatched rows are grounded aircraft.
+
+35
+00:01:53,710 --> 00:01:55,310
+The Fleet view shows each base.
+
+36
+00:01:55,450 --> 00:02:00,842
+We see weapon stock, crew hours used, and the predicted chance that an aircraft fails its pre-flight check.
+
+37
+00:02:00,982 --> 00:02:04,470
+Unreliable aircraft are kept off the highest priority missions.
+
+38
+00:02:04,610 --> 00:02:06,706
+The Engine view shows what happens inside.
+
+39
+00:02:06,846 --> 00:02:09,022
+Nine rule checks run on every plan.
+
+40
+00:02:09,162 --> 00:02:17,370
+We see how the plan was found, what the score is made of, and how much mission value survives across one thousand simulated days of aircraft failures.
+
+41
+00:02:17,510 --> 00:02:20,918
+We can also explore the trade-off between risk and coverage.
+
+42
+00:02:21,058 --> 00:02:23,458
+Each dot is a complete, valid plan.
+
+43
+00:02:23,598 --> 00:02:26,558
+So far, the exact solver was running on a server.
+
+44
+00:02:26,698 --> 00:02:29,290
+The same app also works with no server at all.
+
+45
+00:02:29,510 --> 00:02:33,798
+We switch to the built-in engine, which plans inside the browser, and ground another jet.
+
+46
+00:02:33,938 --> 00:02:36,258
+It re-plans just as quickly, and we approve.
+
+47
+00:02:37,670 --> 00:02:38,630
+VayuVyuha.
+
+48
+00:02:38,990 --> 00:02:44,622
+One live picture, a new plan in under a second, a reason for every change, and a human who approves.
+
+49
+00:02:44,910 --> 00:02:45,438
+Thank you.

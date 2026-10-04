@@ -1,0 +1,371 @@
+{
+ "engine": "server",
+ "steps": [
+  {
+   "title": "Two aircraft grounded",
+   "now": 6,
+   "balanced": {
+    "cov": 71.6,
+    "risk": 14.2,
+    "flown": 17,
+    "total": 27,
+    "ch": 7,
+    "added": 0,
+    "dropped": 1,
+    "s": 0.182,
+    "conf": 62.7,
+    "viol": 0,
+    "eng": "CP-SAT (exact, server)"
+   },
+   "safe": {
+    "cov": 68.4,
+    "risk": 10.8,
+    "flown": 18,
+    "total": 27,
+    "ch": 5,
+    "added": 2,
+    "dropped": 2,
+    "s": 0.115,
+    "conf": 61.2,
+    "viol": 0,
+    "eng": "CP-SAT (exact, server)"
+   },
+   "maxc": {
+    "cov": 71.6,
+    "risk": 15,
+    "flown": 17,
+    "total": 27,
+    "ch": 23,
+    "added": 0,
+    "dropped": 1,
+    "s": 0.109,
+    "conf": 63,
+    "viol": 0,
+    "eng": "CP-SAT (exact, server)"
+   },
+   "base": {
+    "cov": 70,
+    "risk": 15.1,
+    "flown": 17,
+    "total": 27,
+    "ch": 19,
+    "added": 1,
+    "dropped": 2,
+    "s": 0.001,
+    "conf": 62,
+    "viol": 0,
+    "eng": "Sequential baseline"
+   }
+  },
+  {
+   "title": "Pop-up air-defence site",
+   "now": 10,
+   "balanced": {
+    "cov": 68,
+    "risk": 15.6,
+    "flown": 17,
+    "total": 27,
+    "ch": 4,
+    "added": 1,
+    "dropped": 1,
+    "s": 0.128,
+    "conf": 61.6,
+    "viol": 0,
+    "eng": "CP-SAT (exact, server)"
+   },
+   "safe": {
+    "cov": 66.4,
+    "risk": 14.3,
+    "flown": 17,
+    "total": 27,
+    "ch": 5,
+    "added": 1,
+    "dropped": 1,
+    "s": 0.164,
+    "conf": 61,
+    "viol": 0,
+    "eng": "CP-SAT (exact, server)"
+   },
+   "maxc": {
+    "cov": 69.4,
+    "risk": 17.7,
+    "flown": 17,
+    "total": 27,
+    "ch": 8,
+    "added": 1,
+    "dropped": 1,
+    "s": 0.099,
+    "conf": 63,
+    "viol": 0,
+    "eng": "CP-SAT (exact, server)"
+   },
+   "base": {
+    "cov": 67.8,
+    "risk": 16.6,
+    "flown": 17,
+    "total": 27,
+    "ch": 14,
+    "added": 1,
+    "dropped": 1,
+    "s": 0.001,
+    "conf": 61.8,
+    "viol": 0,
+    "eng": "Sequential baseline"
+   }
+  },
+  {
+   "title": "Urgent target (priority 10)",
+   "now": 14,
+   "balanced": {
+    "cov": 65.7,
+    "risk": 15.3,
+    "flown": 17,
+    "total": 28,
+    "ch": 4,
+    "added": 1,
+    "dropped": 1,
+    "s": 0.099,
+    "conf": 60.1,
+    "viol": 0,
+    "eng": "CP-SAT (exact, server)"
+   },
+   "safe": {
+    "cov": 64.4,
+    "risk": 15.4,
+    "flown": 17,
+    "total": 28,
+    "ch": 2,
+    "added": 1,
+    "dropped": 1,
+    "s": 0.108,
+    "conf": 59.7,
+    "viol": 0,
+    "eng": "CP-SAT (exact, server)"
+   },
+   "maxc": {
+    "cov": 65.7,
+    "risk": 16.6,
+    "flown": 17,
+    "total": 28,
+    "ch": 9,
+    "added": 2,
+    "dropped": 2,
+    "s": 0.079,
+    "conf": 60.2,
+    "viol": 0,
+    "eng": "CP-SAT (exact, server)"
+   },
+   "base": {
+    "cov": 63,
+    "risk": 17.4,
+    "flown": 16,
+    "total": 28,
+    "ch": 14,
+    "added": 2,
+    "dropped": 3,
+    "s": 0.001,
+    "conf": 58.1,
+    "viol": 0,
+    "eng": "Sequential baseline"
+   }
+  },
+  {
+   "title": "Storm over a strike corridor",
+   "now": 18,
+   "balanced": {
+    "cov": 64.4,
+    "risk": 15,
+    "flown": 17,
+    "total": 28,
+    "ch": 1,
+    "added": 1,
+    "dropped": 1,
+    "s": 0.059,
+    "conf": 60.2,
+    "viol": 0,
+    "eng": "CP-SAT (exact, server)"
+   },
+   "safe": {
+    "cov": 64.4,
+    "risk": 15,
+    "flown": 17,
+    "total": 28,
+    "ch": 1,
+    "added": 1,
+    "dropped": 1,
+    "s": 0.052,
+    "conf": 60.2,
+    "viol": 0,
+    "eng": "CP-SAT (exact, server)"
+   },
+   "maxc": {
+    "cov": 64.4,
+    "risk": 15.4,
+    "flown": 17,
+    "total": 28,
+    "ch": 7,
+    "added": 1,
+    "dropped": 1,
+    "s": 0.052,
+    "conf": 59.9,
+    "viol": 0,
+    "eng": "CP-SAT (exact, server)"
+   },
+   "base": {
+    "cov": 61.7,
+    "risk": 16.2,
+    "flown": 16,
+    "total": 28,
+    "ch": 9,
+    "added": 1,
+    "dropped": 2,
+    "s": 0.001,
+    "conf": 58.4,
+    "viol": 0,
+    "eng": "Sequential baseline"
+   }
+  }
+ ],
+ "initial": {
+  "m": {
+   "missions_total": 27,
+   "missions_flown": 18,
+   "priority_total": 1248,
+   "priority_covered": 958,
+   "coverage_pct": 76.8,
+   "sorties": 39,
+   "flight_hours": 94.3,
+   "avg_risk": 13.9,
+   "weapons_used": {
+    "AAM": 20,
+    "PGM": 34,
+    "ARM": 6
+   },
+   "aircraft_used": 22,
+   "aircraft_total": 28
+  },
+  "s": {
+   "status": "OPTIMAL",
+   "wall_s": 4.494,
+   "objective": 79058,
+   "bound": 79289,
+   "n_vars": 336,
+   "engine": "CP-SAT (exact, server)"
+  },
+  "sc": {
+   "score": 79058,
+   "value": 95800,
+   "risk": 13575,
+   "readiness": 2205,
+   "flight": 754,
+   "delay": 208
+  },
+  "conf": 69.9
+ },
+ "initial_base": {
+  "m": {
+   "missions_total": 27,
+   "missions_flown": 18,
+   "priority_total": 1248,
+   "priority_covered": 943,
+   "coverage_pct": 75.6,
+   "sorties": 39,
+   "flight_hours": 91,
+   "avg_risk": 15.7,
+   "weapons_used": {
+    "PGM": 34,
+    "ARM": 6,
+    "AAM": 20
+   },
+   "aircraft_used": 25,
+   "aircraft_total": 28
+  },
+  "sc": {
+   "score": 75329,
+   "value": 94300,
+   "risk": 15350,
+   "readiness": 2585,
+   "flight": 728,
+   "delay": 308
+  }
+ },
+ "frontier": [
+  {
+   "risk": 16.2,
+   "cov": 76.8,
+   "n": 18,
+   "label": "Bold"
+  },
+  {
+   "risk": 14,
+   "cov": 76.8,
+   "n": 18,
+   "label": "Balanced"
+  },
+  {
+   "risk": 14,
+   "cov": 76.8,
+   "n": 18,
+   "label": "Balanced"
+  },
+  {
+   "risk": 11.1,
+   "cov": 72.9,
+   "n": 18,
+   "label": "Cautious"
+  },
+  {
+   "risk": 9.4,
+   "cov": 66.5,
+   "n": 16
+  },
+  {
+   "risk": 1,
+   "cov": 39.7,
+   "n": 12,
+   "label": "Very cautious"
+  }
+ ],
+ "final_viol": 0,
+ "history": [
+  {
+   "t": 0,
+   "title": "Initial 12-hour plan",
+   "n": "18 missions tasked",
+   "s": 4.494,
+   "eng": "CP-SAT (exact, server)"
+  },
+  {
+   "t": 6,
+   "title": "Two aircraft grounded",
+   "n": "7 changes",
+   "s": 0.182,
+   "eng": "CP-SAT (exact, server)",
+   "opt": "Recommended"
+  },
+  {
+   "t": 10,
+   "title": "Pop-up air-defence site",
+   "n": "4 changes, 1 new",
+   "s": 0.128,
+   "eng": "CP-SAT (exact, server)",
+   "opt": "Recommended"
+  },
+  {
+   "t": 14,
+   "title": "Urgent target (priority 10)",
+   "n": "4 changes, 1 new",
+   "s": 0.099,
+   "eng": "CP-SAT (exact, server)",
+   "opt": "Recommended"
+  },
+  {
+   "t": 18,
+   "title": "Storm over a strike corridor",
+   "n": "1 change, 1 new",
+   "s": 0.059,
+   "eng": "CP-SAT (exact, server)",
+   "opt": "Recommended"
+  }
+ ]
+}
